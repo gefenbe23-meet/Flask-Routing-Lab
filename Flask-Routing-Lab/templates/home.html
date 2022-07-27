@@ -2,25 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Gefenws art shop</title>
+    <title>Gefens art shop</title>
 </head>
 <body>
     <center>
         <h1>ART supply shop</h1>
         <h3>creating a world of art<h3>
-        <h2> ❇❇❇ </h2>
+         <div class="container-fluid" style="background:lightblue;">
+            <h2>❇❇❇</h2>
+         </div> 
+<div class= "container-fluid"></div>
+ <img src="../static/brushes.jpg" style="width:400px;height:400px; position:relative;"> </img>
 
- <div class= brush>
-   <img src="../static/brushes.jpg"> </img>
-   <h2>Brushes</h2>
-</div> 
- <div class= Paint>
-   <img src="../static/paint.jpeg"> </img>
-   <h2>Paint</h2>
-</div> 
+<img src="../static/jewelry-making.jpg" style="width:400px;height:400px; position:relative;"> </img>
+<img src="../static/sewing.jpg" style="width:400px;height:400px;" ></img>
+</div>
+
+ 
 
 
-    </center>
+<div class= "container-fluid">
+   <a href="{{ url_for('ebayproduct') }}"></center><button onclick ="Paintbutton" style="background-color: lightblue;" > Painting supply  </button> </a>
+         
+    <a href="{{ url_for('ebaycart') }}"><button onclick ="cartbutton" style="background-color: lightblue;"> go to cart </button></a> 
+  
+ </div>
+ </div>
+</center>
+
+   
 
 </body>
 </html>

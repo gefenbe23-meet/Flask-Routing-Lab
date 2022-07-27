@@ -11,6 +11,12 @@ app = Flask(  # Create a flask app
 @app.route ('/')
 def ebay ():
     return render_template ('home.html')
+@app.route ('/product')
+def ebayproduct ():
+    return render_template ('product.html')
+@app.route ('/cart')
+def ebaycart ():
+    return render_template ('cart.html')
 
 
 # Your code should be above
